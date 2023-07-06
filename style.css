@@ -272,16 +272,12 @@ p {
   animation-delay: 2s;
 }
 
+```css
 #hero h1:nth-child(3) {
   animation: text_reveal_name 0.5s ease forwards;
   animation-delay: 3s;
 }
 
-#hero h1 span {
-  position: absolute;
-  top: 0Here's the continuation of the modified CSS code from the previous response:
-
-```css
 #hero h1 span {
   position: absolute;
   top: 0;
@@ -402,9 +398,74 @@ p {
 /* End of Projects Section */
 
 /* About Section */
+/* About Section */
 #about .about {
-  /* Add your styles here */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+#about .about h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#about .about p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: #555555;
+}
+
+#about .about .skills {
+  margin-top: 40px;
+}
+
+#about .about .skills h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+}
+
+#about .about .skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#about .about .skills li {
+  margin: 0 10px;
+}
+
+#about .about .skills li span {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+#about .about .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  background-color: crimson;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  transition: 0.3s ease;
+}
+
+#about .about .cta:hover {
+  background-color: #b80000;
 }
 /* End of About Section */
 
-/* */
